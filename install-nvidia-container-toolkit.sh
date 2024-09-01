@@ -15,5 +15,9 @@ sudo apt-get install -y nvidia-container-toolkit
 # Configuration
 sudo nvidia-ctk runtime configure --runtime=docker
 
+echo "Restarting docker daemon"
+
 sudo systemctl restart docker
 
+echo "Done..."
+echo "You can deploy container now!"

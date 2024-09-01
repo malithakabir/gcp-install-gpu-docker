@@ -9,3 +9,5 @@ sudo python3 cuda_installer.pyz install_driver
 sudo python3 cuda_installer.pyz install_cuda
 
 sudo python3 cuda_installer.pyz verify_cuda
+
+echo "CUDA installation completed."

@@ -54,27 +54,27 @@ docker compose up
 
 Docker compose should a similar message at console:
 ---
-Attaching to test-1
-test-1  | Sun Sep  1 20:11:38 2024       
-test-1  | +-----------------------------------------------------------------------------------------+
-test-1  | | NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
-test-1  | |-----------------------------------------+------------------------+----------------------+
-test-1  | | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
-test-1  | | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
-test-1  | |                                         |                        |               MIG M. |
-test-1  | |=========================================+========================+======================|
-test-1  | |   0  Tesla T4                       On  |   00000000:00:04.0 Off |                    0 |
-test-1  | | N/A   39C    P8              9W /   70W |       1MiB /  15360MiB |      0%      Default |
-test-1  | |                                         |                        |                  N/A |
-test-1  | +-----------------------------------------+------------------------+----------------------+
-test-1  |                                                                                          
-test-1  | +-----------------------------------------------------------------------------------------+
-test-1  | | Processes:                                                                              |
-test-1  | |  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
-test-1  | |        ID   ID                                                               Usage      |
-test-1  | |=========================================================================================|
-test-1  | |  No running processes found                                                             |
-test-1  | +-----------------------------------------------------------------------------------------+
-test-1 exited with code 0
+Attaching to test-1 \
+test-1  | Sun Sep  1 20:11:38 2024       \
+test-1  | +-----------------------------------------------------------------------------------------+ \
+test-1  | | NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     | \
+test-1  | |-----------------------------------------+------------------------+----------------------+ \
+test-1  | | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC | \
+test-1  | | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. | \
+test-1  | |                                         |                        |               MIG M. | \
+test-1  | |=========================================+========================+======================| \
+test-1  | |   0  Tesla T4                       On  |   00000000:00:04.0 Off |                    0 | \
+test-1  | | N/A   39C    P8              9W /   70W |       1MiB /  15360MiB |      0%      Default | \
+test-1  | |                                         |                        |                  N/A | \
+test-1  | +-----------------------------------------+------------------------+----------------------+ \
+test-1  |                                                                                             \
+test-1  | +-----------------------------------------------------------------------------------------+ \
+test-1  | | Processes:                                                                              | \
+test-1  | |  GPU   GI   CI        PID   Type   Process name                              GPU Memory | \
+test-1  | |        ID   ID                                                               Usage      | \
+test-1  | |=========================================================================================| \
+test-1  | |  No running processes found                                                             | \
+test-1  | +-----------------------------------------------------------------------------------------+ \
+test-1 exited with code 0 \
 
 ---
